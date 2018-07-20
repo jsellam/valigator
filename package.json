@@ -1,0 +1,35 @@
+{
+  "name": "valigator",
+  "version": "1.0.0",
+  "description": "A javascript object Validator / transformer",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsellam/valigator.git"
+  },
+  "keywords": [
+    "transformer",
+    "validation",
+    "validator",
+    "data",
+    "json"
+  ],
+  "author": "Jérémie Sellam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsellam/valigator/issues"
+  },
+  "homepage": "https://github.com/jsellam/valigator#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
